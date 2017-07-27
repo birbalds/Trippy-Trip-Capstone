@@ -44,7 +44,6 @@ public class CurrentPlayer : MonoBehaviour {
 		}
 
 		if (!alreadyOpened && door.transform.eulerAngles.y > 45 + 270) {
-			Debug.Log (door.transform.eulerAngles.y);
 			beginBossBattle ();
 		}
 			
