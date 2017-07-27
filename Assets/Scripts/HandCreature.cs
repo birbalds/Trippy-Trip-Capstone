@@ -46,8 +46,6 @@ public class HandCreature : MonoBehaviour {
 
 	void OnCollisionEnter (Collision collider){
 
-		Debug.Log (collider.gameObject.name);
-
 		if (collider.gameObject.tag == "Inactive") {
 			wayPoint.x *= -1;
 		}

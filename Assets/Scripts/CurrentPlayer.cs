@@ -12,6 +12,7 @@ public class CurrentPlayer : MonoBehaviour {
 	public string[] allTags;
 	public AudioClip[] allMusic;
 
+	public SphereCollider steamCameraCollider;
 
 
 	private Shader floatShader;
@@ -38,6 +39,10 @@ public class CurrentPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () { 
+		if (steamCameraCollider.isTrigger) {
+			steamCameraCollider.isTrigger = false;
+		}
+
 		if (!alreadyOpened && door.transform.eulerAngles.y > 45 + 270) {
 			Debug.Log (door.transform.eulerAngles.y);
 			beginBossBattle ();

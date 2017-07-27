@@ -18,6 +18,8 @@
         public float smoothTime = 10.0f;
         private bool isDark = false;
 		private VRNightVision cameraShader;
+		public Light[] lights;
+		public GameObject[] lightSpheres;
 
         private void Start()
         {
@@ -48,7 +50,6 @@
 
         private void HandleChange(object sender, Control3DEventArgs e)
         {
-            Light[] lights = GameObject.FindObjectsOfType(typeof(Light)) as Light[];
 
             if (e.value == 10) {
            
@@ -76,10 +77,12 @@
                 
 
                 foreach (Light light in lights) {
-					GameObject physicalLight = light.transform.root.transform.GetChild (0).gameObject;
-					physicalLight.GetComponent<Renderer>().material = offMaterial;
-                    light.enabled = false;
+					light.enabled = false;
                 }
+
+				foreach (GameObject lightSphere in lightSpheres) {
+					lightSphere.GetComponent<Renderer> ().material = offMaterial;
+				}
 
                 isDark = true;
                 Debug.Log("Lights Off!!!!!");
@@ -89,10 +92,12 @@
                 cameraShader.enabled = false;
 
                 foreach (Light light in lights) {
-					GameObject physicalLight = light.transform.root.transform.GetChild (0).gameObject;
-					physicalLight.GetComponent<Renderer>().material = onMaterial;
-                    light.enabled = true;
+					light.enabled = true;
                 }
+
+				foreach (GameObject lightSphere in lightSpheres) {
+					lightSphere.GetComponent<Renderer> ().material = onMaterial;
+				}
 
                 isDark = false;
                 Debug.Log("Lights ON!");
