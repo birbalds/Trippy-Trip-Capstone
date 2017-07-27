@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1323024218805344}
+  m_IsPrefabParent: 1
+--- !u!1 &1323024218805344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4901417415609752}
+  m_Layer: 9
+  m_Name: Disco Eel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1903257423958824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4498565793826168}
+  - component: {fileID: 136570326187553054}
+  - component: {fileID: 114636397384486648}
+  - component: {fileID: 114708199930338834}
+  m_Layer: 9
+  m_Name: Disco Eel 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4498565793826168
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903257423958824}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4901417415609752}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4901417415609752
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1323024218805344}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: -24, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4498565793826168}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114636397384486648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903257423958824}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef59a444b37aa842bd5b691c7d8737d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FrameSources:
+  - m_Source: {fileID: 100000, guid: 7c0c0d73c69a17f42892ef0d9fe4a7c1, type: 3}
+    m_Repetitions: 0
+    m_SourceType: 2
+  - m_Source: {fileID: 100000, guid: d67aa16f2b43dec439f99cc90803baf2, type: 3}
+    m_Repetitions: 0
+    m_SourceType: 2
+  - m_Source: {fileID: 100000, guid: 852ac12d4bb373e428b14d5ae34e4865, type: 3}
+    m_Repetitions: 0
+    m_SourceType: 2
+  - m_Source: {fileID: 100000, guid: fd5b68307b1469b4193f6cbcd0d3b85c, type: 3}
+    m_Repetitions: 0
+    m_SourceType: 2
+  - m_Source: {fileID: 100000, guid: e835e776edc7c3e42b84e5786ca158c6, type: 3}
+    m_Repetitions: 0
+    m_SourceType: 2
+  m_ConstantFramesPerSecond: 10
+  m_PlaybackMode: 1
+  m_DirectorFrameDuration: 0.5
+  m_RandomizeStart: 1
+  m_PreviewFirstFrame: 1
+--- !u!114 &114708199930338834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903257423958824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fac349a8bccfa48aa8c4b7265e45a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 1
+  wayPoint: {x: 0, y: 0, z: 0}
+  Range: 3
+--- !u!136 &136570326187553054
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903257423958824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.31
+  m_Direction: 0
+  m_Center: {x: 5.51, y: 25.3, z: -1.6}

@@ -1,0 +1,675 @@
+fileFormatVersion: 2
+guid: a4dd92b666a8b164e98e8a2877b98c29
+timeCreated: 1500858815
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cvet01
+    100002: Line02
+    100004: List Mal10
+    100006: List Mal11
+    100008: List Mal12
+    100010: List Mal13
+    100012: List Mal14
+    100014: List Mal15
+    100016: List Mal16
+    100018: List Mal17
+    100020: List Mal18
+    100022: List Mal19
+    100024: List Mal20
+    100026: List Mal21
+    100028: List Mal22
+    100030: List Mal23
+    100032: List Mal24
+    100034: List Mal25
+    100036: List Mal26
+    100038: List Mal27
+    100040: List Mal28
+    100042: List Mal29
+    100044: List Mal30
+    100046: List Mal31
+    100048: List MAli0
+    100050: List Mali0
+    100052: List MAli1
+    100054: List Mali1
+    100056: List MAli2
+    100058: List Mali2
+    100060: List Mali3
+    100062: List Mali4
+    100064: List Mali5
+    100066: List Mali6
+    100068: List Mali7
+    100070: List Mali8
+    100072: List Mali9
+    100074: List MaliN
+    100076: List Veli0
+    100078: List Veli1
+    100080: List Veli2
+    100082: List Veli3
+    100084: List Veli4
+    100086: List Veli5
+    100088: List Veli6
+    100090: List Veli7
+    100092: List Velik
+    100094: List Zut10
+    100096: List Zut11
+    100098: List Zut12
+    100100: List Zut13
+    100102: List Zut14
+    100104: List Zut15
+    100106: List Zut16
+    100108: List Zut17
+    100110: List Zut18
+    100112: List Zut19
+    100114: List Zut20
+    100116: List Zut21
+    100118: List Zut22
+    100120: List Zut23
+    100122: List Zut24
+    100124: List Zut25
+    100126: List Zut26
+    100128: List Zut27
+    100130: List Zut28
+    100132: List Zut29
+    100134: List Zut30
+    100136: List Zut31
+    100138: List Zut32
+    100140: List Zut33
+    100142: List Zut34
+    100144: List Zut35
+    100146: List Zut36
+    100148: List Zut37
+    100150: List Zut38
+    100152: List Zut39
+    100154: List Zut40
+    100156: List Zut41
+    100158: List Zut42
+    100160: List Zut43
+    100162: List Zut44
+    100164: List Zut45
+    100166: List Zut46
+    100168: List Zut47
+    100170: List Zut48
+    100172: List Zut49
+    100174: List Zut50
+    100176: List Zut51
+    100178: List Zut52
+    100180: List Zut53
+    100182: List Zut54
+    100184: List Zut55
+    100186: List Zut56
+    100188: List Zut57
+    100190: List Zut58
+    100192: List Zut59
+    100194: List Zut60
+    100196: List Zut61
+    100198: List Zut62
+    100200: List Zut63
+    100202: List Zut64
+    100204: List Zut65
+    100206: List Zut66
+    100208: List Zut67
+    100210: List Zut68
+    100212: List Zut69
+    100214: List Zut70
+    100216: List Zuti0
+    100218: List Zuti1
+    100220: List Zuti2
+    100222: List Zuti3
+    100224: List Zuti4
+    100226: List Zuti5
+    100228: List Zuti6
+    100230: List Zuti7
+    100232: List Zuti8
+    100234: List Zuti9
+    100236: List ZutiN
+    100238: Listovi Z0
+    100240: Listovi Z1
+    100242: Listovi Z2
+    100244: Listovi Zu
+    100246: Sphere02
+    100248: //RootNode
+    400000: Cvet01
+    400002: Line02
+    400004: List Mal10
+    400006: List Mal11
+    400008: List Mal12
+    400010: List Mal13
+    400012: List Mal14
+    400014: List Mal15
+    400016: List Mal16
+    400018: List Mal17
+    400020: List Mal18
+    400022: List Mal19
+    400024: List Mal20
+    400026: List Mal21
+    400028: List Mal22
+    400030: List Mal23
+    400032: List Mal24
+    400034: List Mal25
+    400036: List Mal26
+    400038: List Mal27
+    400040: List Mal28
+    400042: List Mal29
+    400044: List Mal30
+    400046: List Mal31
+    400048: List MAli0
+    400050: List Mali0
+    400052: List MAli1
+    400054: List Mali1
+    400056: List MAli2
+    400058: List Mali2
+    400060: List Mali3
+    400062: List Mali4
+    400064: List Mali5
+    400066: List Mali6
+    400068: List Mali7
+    400070: List Mali8
+    400072: List Mali9
+    400074: List MaliN
+    400076: List Veli0
+    400078: List Veli1
+    400080: List Veli2
+    400082: List Veli3
+    400084: List Veli4
+    400086: List Veli5
+    400088: List Veli6
+    400090: List Veli7
+    400092: List Velik
+    400094: List Zut10
+    400096: List Zut11
+    400098: List Zut12
+    400100: List Zut13
+    400102: List Zut14
+    400104: List Zut15
+    400106: List Zut16
+    400108: List Zut17
+    400110: List Zut18
+    400112: List Zut19
+    400114: List Zut20
+    400116: List Zut21
+    400118: List Zut22
+    400120: List Zut23
+    400122: List Zut24
+    400124: List Zut25
+    400126: List Zut26
+    400128: List Zut27
+    400130: List Zut28
+    400132: List Zut29
+    400134: List Zut30
+    400136: List Zut31
+    400138: List Zut32
+    400140: List Zut33
+    400142: List Zut34
+    400144: List Zut35
+    400146: List Zut36
+    400148: List Zut37
+    400150: List Zut38
+    400152: List Zut39
+    400154: List Zut40
+    400156: List Zut41
+    400158: List Zut42
+    400160: List Zut43
+    400162: List Zut44
+    400164: List Zut45
+    400166: List Zut46
+    400168: List Zut47
+    400170: List Zut48
+    400172: List Zut49
+    400174: List Zut50
+    400176: List Zut51
+    400178: List Zut52
+    400180: List Zut53
+    400182: List Zut54
+    400184: List Zut55
+    400186: List Zut56
+    400188: List Zut57
+    400190: List Zut58
+    400192: List Zut59
+    400194: List Zut60
+    400196: List Zut61
+    400198: List Zut62
+    400200: List Zut63
+    400202: List Zut64
+    400204: List Zut65
+    400206: List Zut66
+    400208: List Zut67
+    400210: List Zut68
+    400212: List Zut69
+    400214: List Zut70
+    400216: List Zuti0
+    400218: List Zuti1
+    400220: List Zuti2
+    400222: List Zuti3
+    400224: List Zuti4
+    400226: List Zuti5
+    400228: List Zuti6
+    400230: List Zuti7
+    400232: List Zuti8
+    400234: List Zuti9
+    400236: List ZutiN
+    400238: Listovi Z0
+    400240: Listovi Z1
+    400242: Listovi Z2
+    400244: Listovi Zu
+    400246: Sphere02
+    400248: //RootNode
+    2300000: Line02
+    2300002: List Mal10
+    2300004: List Mal11
+    2300006: List Mal12
+    2300008: List Mal13
+    2300010: List Mal14
+    2300012: List Mal15
+    2300014: List Mal16
+    2300016: List Mal17
+    2300018: List Mal18
+    2300020: List Mal19
+    2300022: List Mal20
+    2300024: List Mal21
+    2300026: List Mal22
+    2300028: List Mal23
+    2300030: List Mal24
+    2300032: List Mal25
+    2300034: List Mal26
+    2300036: List Mal27
+    2300038: List Mal28
+    2300040: List Mal29
+    2300042: List Mal30
+    2300044: List Mal31
+    2300046: List Mali0
+    2300048: List Mali1
+    2300050: List Mali2
+    2300052: List Mali3
+    2300054: List Mali4
+    2300056: List Mali5
+    2300058: List Mali6
+    2300060: List Mali7
+    2300062: List Mali8
+    2300064: List Mali9
+    2300066: List MaliN
+    2300068: List Veli0
+    2300070: List Veli1
+    2300072: List Veli2
+    2300074: List Veli3
+    2300076: List Veli4
+    2300078: List Veli5
+    2300080: List Veli6
+    2300082: List Veli7
+    2300084: List Velik
+    2300086: List Zut10
+    2300088: List Zut11
+    2300090: List Zut12
+    2300092: List Zut13
+    2300094: List Zut14
+    2300096: List Zut15
+    2300098: List Zut16
+    2300100: List Zut17
+    2300102: List Zut18
+    2300104: List Zut19
+    2300106: List Zut20
+    2300108: List Zut21
+    2300110: List Zut22
+    2300112: List Zut23
+    2300114: List Zut24
+    2300116: List Zut25
+    2300118: List Zut26
+    2300120: List Zut27
+    2300122: List Zut28
+    2300124: List Zut29
+    2300126: List Zut30
+    2300128: List Zut31
+    2300130: List Zut32
+    2300132: List Zut33
+    2300134: List Zut34
+    2300136: List Zut35
+    2300138: List Zut36
+    2300140: List Zut37
+    2300142: List Zut38
+    2300144: List Zut39
+    2300146: List Zut40
+    2300148: List Zut41
+    2300150: List Zut42
+    2300152: List Zut43
+    2300154: List Zut44
+    2300156: List Zut45
+    2300158: List Zut46
+    2300160: List Zut47
+    2300162: List Zut48
+    2300164: List Zut49
+    2300166: List Zut50
+    2300168: List Zut51
+    2300170: List Zut52
+    2300172: List Zut53
+    2300174: List Zut54
+    2300176: List Zut55
+    2300178: List Zut56
+    2300180: List Zut57
+    2300182: List Zut58
+    2300184: List Zut59
+    2300186: List Zut60
+    2300188: List Zut61
+    2300190: List Zut62
+    2300192: List Zut63
+    2300194: List Zut64
+    2300196: List Zut65
+    2300198: List Zut66
+    2300200: List Zut67
+    2300202: List Zut68
+    2300204: List Zut69
+    2300206: List Zut70
+    2300208: List Zuti0
+    2300210: List Zuti1
+    2300212: List Zuti2
+    2300214: List Zuti3
+    2300216: List Zuti4
+    2300218: List Zuti5
+    2300220: List Zuti6
+    2300222: List Zuti7
+    2300224: List Zuti8
+    2300226: List Zuti9
+    2300228: List ZutiN
+    2300230: Sphere02
+    3300000: Line02
+    3300002: List Mal10
+    3300004: List Mal11
+    3300006: List Mal12
+    3300008: List Mal13
+    3300010: List Mal14
+    3300012: List Mal15
+    3300014: List Mal16
+    3300016: List Mal17
+    3300018: List Mal18
+    3300020: List Mal19
+    3300022: List Mal20
+    3300024: List Mal21
+    3300026: List Mal22
+    3300028: List Mal23
+    3300030: List Mal24
+    3300032: List Mal25
+    3300034: List Mal26
+    3300036: List Mal27
+    3300038: List Mal28
+    3300040: List Mal29
+    3300042: List Mal30
+    3300044: List Mal31
+    3300046: List Mali0
+    3300048: List Mali1
+    3300050: List Mali2
+    3300052: List Mali3
+    3300054: List Mali4
+    3300056: List Mali5
+    3300058: List Mali6
+    3300060: List Mali7
+    3300062: List Mali8
+    3300064: List Mali9
+    3300066: List MaliN
+    3300068: List Veli0
+    3300070: List Veli1
+    3300072: List Veli2
+    3300074: List Veli3
+    3300076: List Veli4
+    3300078: List Veli5
+    3300080: List Veli6
+    3300082: List Veli7
+    3300084: List Velik
+    3300086: List Zut10
+    3300088: List Zut11
+    3300090: List Zut12
+    3300092: List Zut13
+    3300094: List Zut14
+    3300096: List Zut15
+    3300098: List Zut16
+    3300100: List Zut17
+    3300102: List Zut18
+    3300104: List Zut19
+    3300106: List Zut20
+    3300108: List Zut21
+    3300110: List Zut22
+    3300112: List Zut23
+    3300114: List Zut24
+    3300116: List Zut25
+    3300118: List Zut26
+    3300120: List Zut27
+    3300122: List Zut28
+    3300124: List Zut29
+    3300126: List Zut30
+    3300128: List Zut31
+    3300130: List Zut32
+    3300132: List Zut33
+    3300134: List Zut34
+    3300136: List Zut35
+    3300138: List Zut36
+    3300140: List Zut37
+    3300142: List Zut38
+    3300144: List Zut39
+    3300146: List Zut40
+    3300148: List Zut41
+    3300150: List Zut42
+    3300152: List Zut43
+    3300154: List Zut44
+    3300156: List Zut45
+    3300158: List Zut46
+    3300160: List Zut47
+    3300162: List Zut48
+    3300164: List Zut49
+    3300166: List Zut50
+    3300168: List Zut51
+    3300170: List Zut52
+    3300172: List Zut53
+    3300174: List Zut54
+    3300176: List Zut55
+    3300178: List Zut56
+    3300180: List Zut57
+    3300182: List Zut58
+    3300184: List Zut59
+    3300186: List Zut60
+    3300188: List Zut61
+    3300190: List Zut62
+    3300192: List Zut63
+    3300194: List Zut64
+    3300196: List Zut65
+    3300198: List Zut66
+    3300200: List Zut67
+    3300202: List Zut68
+    3300204: List Zut69
+    3300206: List Zut70
+    3300208: List Zuti0
+    3300210: List Zuti1
+    3300212: List Zuti2
+    3300214: List Zuti3
+    3300216: List Zuti4
+    3300218: List Zuti5
+    3300220: List Zuti6
+    3300222: List Zuti7
+    3300224: List Zuti8
+    3300226: List Zuti9
+    3300228: List ZutiN
+    3300230: Sphere02
+    4300000: Line02
+    4300002: List MaliN
+    4300004: List Mali0
+    4300006: List Mali1
+    4300008: List Mali2
+    4300010: List Mali3
+    4300012: List Mali4
+    4300014: List Mali5
+    4300016: List Mali6
+    4300018: List Mali7
+    4300020: List Mali8
+    4300022: List Mali9
+    4300024: List Mal10
+    4300026: List Mal11
+    4300028: List Mal12
+    4300030: List Mal13
+    4300032: List Mal14
+    4300034: List Mal15
+    4300036: List Mal16
+    4300038: List Mal17
+    4300040: List Mal18
+    4300042: List Mal19
+    4300044: List Mal20
+    4300046: Sphere02
+    4300048: List ZutiN
+    4300050: List Zuti0
+    4300052: List Zuti1
+    4300054: List Zuti2
+    4300056: List Zuti3
+    4300058: List Zuti4
+    4300060: List Zuti5
+    4300062: List Zuti6
+    4300064: List Zuti7
+    4300066: List Zuti8
+    4300068: List Zuti9
+    4300070: List Zut10
+    4300072: List Zut11
+    4300074: List Zut12
+    4300076: List Zut13
+    4300078: List Zut14
+    4300080: List Zut15
+    4300082: List Zut16
+    4300084: List Zut17
+    4300086: List Zut18
+    4300088: List Zut19
+    4300090: List Zut20
+    4300092: List Zut21
+    4300094: List Zut22
+    4300096: List Zut23
+    4300098: List Zut24
+    4300100: List Zut25
+    4300102: List Zut26
+    4300104: List Zut27
+    4300106: List Zut28
+    4300108: List Zut29
+    4300110: List Zut30
+    4300112: List Zut31
+    4300114: List Zut32
+    4300116: List Zut33
+    4300118: List Zut34
+    4300120: List Zut35
+    4300122: List Zut36
+    4300124: List Zut37
+    4300126: List Zut38
+    4300128: List Zut39
+    4300130: List Zut40
+    4300132: List Zut41
+    4300134: List Zut42
+    4300136: List Zut43
+    4300138: List Zut44
+    4300140: List Zut45
+    4300142: List Zut46
+    4300144: List Zut47
+    4300146: List Zut48
+    4300148: List Zut49
+    4300150: List Zut50
+    4300152: List Zut51
+    4300154: List Zut52
+    4300156: List Zut53
+    4300158: List Zut54
+    4300160: List Zut55
+    4300162: List Zut56
+    4300164: List Zut57
+    4300166: List Zut58
+    4300168: List Zut59
+    4300170: List Zut60
+    4300172: List Zut61
+    4300174: List Zut62
+    4300176: List Zut63
+    4300178: List Zut64
+    4300180: List Zut65
+    4300182: List Zut66
+    4300184: List Zut67
+    4300186: List Zut68
+    4300188: List Zut69
+    4300190: List Zut70
+    4300192: List Mal21
+    4300194: List Mal22
+    4300196: List Mal23
+    4300198: List Mal24
+    4300200: List Mal25
+    4300202: List Mal26
+    4300204: List Mal27
+    4300206: List Mal28
+    4300208: List Mal29
+    4300210: List Mal30
+    4300212: List Mal31
+    4300214: List Velik
+    4300216: List Veli0
+    4300218: List Veli1
+    4300220: List Veli2
+    4300222: List Veli3
+    4300224: List Veli4
+    4300226: List Veli5
+    4300228: List Veli6
+    4300230: List Veli7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
