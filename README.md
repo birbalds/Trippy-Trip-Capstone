@@ -13,7 +13,7 @@ This was a month long solo project I made for my capstone at Ada's Developer's A
 
 I was able to make 3D models thanks to the newly widespread VR headsets and programs like Oculus Medium, Tilt Brush, and Google Blocks (there is atleast one creature made in each program).
 
-I animated most of the creatures by rigging them in blender and animating them in Unity. The only exception beig the Disco Eel that is partly animated using Tilt Brush anmimations.
+I animated most of the creatures by rigging them in blender and animating them in Unity. The only exception being the Disco Eel that is partly animated using Tilt Brush anmimations.
 
 I edited the color scheme file in Gimp for most/all of the objects in this project.
 
@@ -24,3 +24,5 @@ I used VRToolKit to get the basic VR controls and interactions as well as some p
 I delved into making my own shaders to get trippy effects when you take a pill. This took the bulk of my time because I had to get a black and white to color transition emerging from wherever the user is standing the moment they took a pill. I also played with other trippy shader effects.
 
 I remixed one of my favorite old Bahamian songs from childhood and added it to this project. I also made my own music for one of the scenes.
+
+I coded in C# and used Unity Engine to tie everything together in a clumsy VR Experience called Trippy Trip~
