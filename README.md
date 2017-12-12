@@ -9,6 +9,8 @@ Works best on Oculus
 
 This was a month long solo project I made for my capstone at Ada's Developer's Academy. After discovering multiple tools to aide in the creation of games/VR experiences I decided to see how difficult it would be to make one on my own with very little knowledge of programming going in.
 
+The objective is to take the pills and fix the door knob. Don't drop the door knob~! Because you will probably never find it again :)
+
 ## A bit on the Process
 
 I was able to make 3D models thanks to the newly widespread VR headsets and programs like Oculus Medium, Tilt Brush, and Google Blocks (there is atleast one creature made in each program).
